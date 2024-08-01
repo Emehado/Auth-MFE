@@ -1,12 +1,8 @@
-import './App.css';
+// import './App.css';
+import { Login } from "./screens";
 
 const App = () => {
-  return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p className='bg-red-300'>Start building amazing things with Rsbuild.</p>
-    </div>
-  );
+  return <Login />;
 };
 
 export default App;
